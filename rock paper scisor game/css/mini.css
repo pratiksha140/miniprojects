@@ -1,4 +1,4 @@
-*{
+*{  
 	margin : 0;
 	padding: 0;
 	text-align: center;
@@ -27,25 +27,24 @@ img{
 	width: 180px;
 	object-fit: cover;   
 	border-radius: 50%;
+	box-sizing: border-box;
 }
 
 img:hover{
     opacity: 0.5;
 	border: 2px dotted blue;
 	cursor: pointer;
-	ba
+	transform: scale(1.2);
 }
-p{
-	
+p{	
 	font-size: 40px;
 	padding-left: 30px;
 }
+
 .count{
 	display: flex;
 	justify-content: center;
 	margin: 30px;
-	
-
 }
 #btn{
 	width: auto;
@@ -56,5 +55,4 @@ p{
 	background-color: black;
 	color: white;
 	cursor: pointer;
-
 }
