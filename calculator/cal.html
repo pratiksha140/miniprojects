@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="D:\pratu\study\js mini projects\calculator\cal.css">
+	<title>Calculator</title>
+</head>
+<body>
+	<div>
+		<div  class="container">
+			<div>
+				<input type="text" name="num" id="input" placeholder="0">
+			</div>
+			<div class="buttons">
+				<button onclick="clearValue()">AC</button>
+				<button onclick="backspace()">DEL</button>
+				<button onclick="appendValue('%')" class="opr">%</button>
+				<button onclick="appendValue('/')" class="opr">/</button>		
+				<button onclick="appendValue('7')">7</button>
+				<button onclick="appendValue('8')">8</button>
+				<button onclick="appendValue('9')">9</button>
+				<button onclick="appendValue('*')"class="opr">*</button>
+			
+				<button onclick="appendValue('4')">4</button>
+				<button onclick="appendValue('5')">5</button>
+				<button onclick="appendValue('6')">6</button>
+				<button onclick="appendValue('+')" class="opr">+</button>		
+	
+		
+				<button onclick="appendValue('1')">1</button>
+				<button onclick="appendValue('2')">2</button>
+				<button onclick="appendValue('3')">3</button>
+				<button onclick="appendValue('-')"class="opr">-</button>		
+			
+			
+				<button onclick="appendValue('&#xB1')" id="plusMinus">&#xB1</button>
+				<button onclick="appendValue('0')">0</button>
+				<button onclick="appendValue('.')">.</button>
+				<button onclick="calculateResult()"id="eqBtn">=</button>		
+			</div>	
+		</div>	
+	</div>
+ <script src="D:\pratu\study\js mini projects\calculator\cal.js"></script>
+</body>
+</html>
+
+
