@@ -86,6 +86,52 @@ body{
 	position: absolute;	
 }
 
+/* for signup */
+.signup-container{
+    box-sizing: border-box;
+    width: 40%;
+    background-image: linear-gradient(to right, rgb(244, 86, 86), rgb(255, 255, 255));
+    border: 1px solid rgb(29, 26, 226);
+    border-radius: 20px;
+    color: black;
+    margin: 20px 0px 0px 450px;
+    padding: 10px;
+
+}
+ .signup-container h1{
+    text-shadow: 2px 2px skyblue;
+    text-decoration: underline;
+    font-family: serif;
+    font-size: 35px;
+    text-align: center;
+}
+.signup-container p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+ .signup-style{
+    width: 100%;
+    margin-left: 30px;    
+}
+.signup-container input{
+    width:400px;
+    border: 1px solid rgb(29, 26, 226);
+    border-radius: 10px;
+    padding: 10px;
+ }
+
+ .btn button{
+    width: auto;
+    border: 1px solid rgb(29, 26, 226);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    color: black;
+    font-size: 25px;
+ }
+
+ /* for main */
 .firstbar{
 	display: flex;
     margin-left: 340px;
