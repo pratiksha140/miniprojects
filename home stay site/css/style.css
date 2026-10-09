@@ -67,18 +67,24 @@ body{
 }
 
 .endhead1{
-	width: 60px;
-	border-radius: 20px;
+	width: 100px;
+	border-radius: 10px;
 	border: 1px solid lightgrey;
-	background-color: #f2f2f1;
-	margin-bottom: -80px;
+	background-color: #9fb3e9;
 	display: none;	
 }
 
 .endhead1 button{
 	align-items: center;
-	font-size: 10px;
-	padding-left: 10px;
+	font-size: 15px;
+	padding: 10px 20px;
+	border: none;
+	background-color:transparent;
+	cursor: pointer;
+}
+
+.endhead1 button:hover{
+	color: #ee0505;
 }
 
 .login:hover .endhead1{
